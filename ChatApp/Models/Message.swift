@@ -10,6 +10,6 @@ import Foundation
 struct Message: Identifiable, Codable {
     var id: String
     var text: String
-    var isReceived: Bool //if the user is receiver of the message this state will true
+    var received: Bool //if the user is receiver of the message this state will true
     var timestamp: Date
 }
