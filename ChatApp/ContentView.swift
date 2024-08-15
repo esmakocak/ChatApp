@@ -10,8 +10,6 @@ import SwiftUI
 struct ContentView: View {
     @StateObject var messagesManager = MessagesManager()
     
-    var messageArray = ["Hi there!", "How are you doing", "I miss you, can we hangout sometime?"]
-    
     var body: some View {
         VStack {
             VStack {
@@ -29,8 +27,8 @@ struct ContentView: View {
             }
             .background(Color("Peach"))
             MessageField()
+                .environmentObject(messagesManager)
         }
-        
     }
 }
 
