@@ -24,7 +24,7 @@ struct TitleRow: View {
             
             VStack(alignment: .leading){
                 Text(name)
-                    .font(.title).bold()
+                    .font(.title2).bold()
                 
                 Text("online")
                     .font(.caption)

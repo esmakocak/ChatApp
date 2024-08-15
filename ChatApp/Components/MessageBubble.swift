@@ -38,5 +38,5 @@ struct MessageBubble: View {
 }
 
 #Preview {
-    MessageBubble(message: Message(id: "12345", text: "Selam canım benim napıyosun? Görüşmeyeli çok oldu iyisindir inşallah. Caleb'a selam söyle.", isReceived: false, timestamp: Date()))
+    MessageBubble(message: Message(id: "12345", text: "Im tryna learn swiftUI", isReceived: false, timestamp: Date()))
 }

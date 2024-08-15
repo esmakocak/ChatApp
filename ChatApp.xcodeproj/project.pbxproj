@@ -39,6 +39,7 @@
 		4094B0452C6E8E990040089F /* TitleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4094B0442C6E8E990040089F /* TitleRow.swift */; };
 		4094B0482C6E954C0040089F /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4094B0472C6E954C0040089F /* Message.swift */; };
 		4094B04A2C6E96090040089F /* MessageBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4094B0492C6E96090040089F /* MessageBubble.swift */; };
+		4094B04C2C6E9D4D0040089F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4094B04B2C6E9D4D0040089F /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		4094B0442C6E8E990040089F /* TitleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleRow.swift; sourceTree = "<group>"; };
 		4094B0472C6E954C0040089F /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		4094B0492C6E96090040089F /* MessageBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBubble.swift; sourceTree = "<group>"; };
+		4094B04B2C6E9D4D0040089F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				4094B0102C6E5F4D0040089F /* GoogleService-Info.plist */,
 				4094B0022C6E5B6E0040089F /* ChatAppApp.swift */,
 				4094B0042C6E5B6E0040089F /* ContentView.swift */,
+				4094B04B2C6E9D4D0040089F /* Extensions.swift */,
 				4094B0462C6E952F0040089F /* Models */,
 				4094B0432C6E8E850040089F /* Components */,
 				4094B0062C6E5B6F0040089F /* Assets.xcassets */,
@@ -245,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4094B0052C6E5B6E0040089F /* ContentView.swift in Sources */,
+				4094B04C2C6E9D4D0040089F /* Extensions.swift in Sources */,
 				4094B0482C6E954C0040089F /* Message.swift in Sources */,
 				4094B04A2C6E96090040089F /* MessageBubble.swift in Sources */,
 				4094B0032C6E5B6E0040089F /* ChatAppApp.swift in Sources */,
