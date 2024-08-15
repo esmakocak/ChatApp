@@ -35,6 +35,7 @@
 		4094B03C2C6E64660040089F /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 4094B03B2C6E64660040089F /* FirebaseStorage */; };
 		4094B03E2C6E64660040089F /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 4094B03D2C6E64660040089F /* FirebaseStorageCombine-Community */; };
 		4094B0402C6E64660040089F /* FirebaseVertexAI-Preview in Frameworks */ = {isa = PBXBuildFile; productRef = 4094B03F2C6E64660040089F /* FirebaseVertexAI-Preview */; };
+		4094B0422C6E8C300040089F /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 4094B0412C6E8C300040089F /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		4094B0062C6E5B6F0040089F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4094B0092C6E5B6F0040089F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4094B0102C6E5F4D0040089F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4094B0412C6E8C300040089F /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				4094B0042C6E5B6E0040089F /* ContentView.swift */,
 				4094B0062C6E5B6F0040089F /* Assets.xcassets */,
 				4094B0082C6E5B6F0040089F /* Preview Content */,
+				4094B0412C6E8C300040089F /* .gitignore */,
 			);
 			path = ChatApp;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4094B0422C6E8C300040089F /* .gitignore in Resources */,
 				4094B00A2C6E5B6F0040089F /* Preview Assets.xcassets in Resources */,
 				4094B0072C6E5B6F0040089F /* Assets.xcassets in Resources */,
 				4094B0112C6E5F4E0040089F /* GoogleService-Info.plist in Resources */,
