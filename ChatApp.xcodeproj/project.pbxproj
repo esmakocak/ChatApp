@@ -37,6 +37,7 @@
 		4094B0402C6E64660040089F /* FirebaseVertexAI-Preview in Frameworks */ = {isa = PBXBuildFile; productRef = 4094B03F2C6E64660040089F /* FirebaseVertexAI-Preview */; };
 		4094B0422C6E8C300040089F /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 4094B0412C6E8C300040089F /* .gitignore */; };
 		4094B0452C6E8E990040089F /* TitleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4094B0442C6E8E990040089F /* TitleRow.swift */; };
+		4094B0482C6E954C0040089F /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4094B0472C6E954C0040089F /* Message.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		4094B0102C6E5F4D0040089F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4094B0412C6E8C300040089F /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		4094B0442C6E8E990040089F /* TitleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleRow.swift; sourceTree = "<group>"; };
+		4094B0472C6E954C0040089F /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				4094B0102C6E5F4D0040089F /* GoogleService-Info.plist */,
 				4094B0022C6E5B6E0040089F /* ChatAppApp.swift */,
 				4094B0042C6E5B6E0040089F /* ContentView.swift */,
+				4094B0462C6E952F0040089F /* Models */,
 				4094B0432C6E8E850040089F /* Components */,
 				4094B0062C6E5B6F0040089F /* Assets.xcassets */,
 				4094B0082C6E5B6F0040089F /* Preview Content */,
@@ -128,6 +131,14 @@
 				4094B0442C6E8E990040089F /* TitleRow.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		4094B0462C6E952F0040089F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4094B0472C6E954C0040089F /* Message.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4094B0052C6E5B6E0040089F /* ContentView.swift in Sources */,
+				4094B0482C6E954C0040089F /* Message.swift in Sources */,
 				4094B0032C6E5B6E0040089F /* ChatAppApp.swift in Sources */,
 				4094B0452C6E8E990040089F /* TitleRow.swift in Sources */,
 			);
