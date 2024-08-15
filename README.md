@@ -14,6 +14,6 @@
 
 
 **Used:**
--SwiftUI, Firebase Firestore, MVVM, Combine, Swift Concurrency.
+SwiftUI, Firebase Firestore, MVVM, Combine, Swift Concurrency.
 
 <img width="337" alt="Screenshot 2024-08-16 at 01 53 10" src="https://github.com/user-attachments/assets/75264ce3-6283-46e9-86a4-6fac272c4505">
