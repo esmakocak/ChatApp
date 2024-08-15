@@ -36,6 +36,7 @@
 		4094B03E2C6E64660040089F /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 4094B03D2C6E64660040089F /* FirebaseStorageCombine-Community */; };
 		4094B0402C6E64660040089F /* FirebaseVertexAI-Preview in Frameworks */ = {isa = PBXBuildFile; productRef = 4094B03F2C6E64660040089F /* FirebaseVertexAI-Preview */; };
 		4094B0422C6E8C300040089F /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 4094B0412C6E8C300040089F /* .gitignore */; };
+		4094B0452C6E8E990040089F /* TitleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4094B0442C6E8E990040089F /* TitleRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		4094B0092C6E5B6F0040089F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4094B0102C6E5F4D0040089F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4094B0412C6E8C300040089F /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		4094B0442C6E8E990040089F /* TitleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				4094B0102C6E5F4D0040089F /* GoogleService-Info.plist */,
 				4094B0022C6E5B6E0040089F /* ChatAppApp.swift */,
 				4094B0042C6E5B6E0040089F /* ContentView.swift */,
+				4094B0432C6E8E850040089F /* Components */,
 				4094B0062C6E5B6F0040089F /* Assets.xcassets */,
 				4094B0082C6E5B6F0040089F /* Preview Content */,
 				4094B0412C6E8C300040089F /* .gitignore */,
@@ -117,6 +120,14 @@
 				4094B0092C6E5B6F0040089F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4094B0432C6E8E850040089F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				4094B0442C6E8E990040089F /* TitleRow.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +232,7 @@
 			files = (
 				4094B0052C6E5B6E0040089F /* ContentView.swift in Sources */,
 				4094B0032C6E5B6E0040089F /* ChatAppApp.swift in Sources */,
+				4094B0452C6E8E990040089F /* TitleRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
